@@ -1,0 +1,251 @@
+.headernav{
+  list-style-type:none;
+  text-align: left;
+  position: relative;
+  background-color: rgba(0, 51, 0,0.9);
+  height: auto;
+  width: auto;
+  padding: 1px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.paragrafe{
+  padding: 1px;
+  height: auto;
+  margin:auto;
+  font-size: 30px;
+  position:sticky;
+  overflow: hidden;
+
+}
+
+.header-content {
+  margin-bottom:1px;
+  padding: auto;
+  float:right;
+  font-size: 17px;
+}
+
+.header-button{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+  margin:auto;
+}
+
+.iduser {
+   display:block;
+   color:white;
+   float:left;
+   text-align:center;
+   padding:15px 12px;
+   font-size:14px;
+   font-family:arial, Helvetica, sans-serif;
+}
+
+.header-button:hover {
+	border-radius:10px;
+   background-color:#996633;
+  color:;
+}
+
+.desc {
+  padding: 5px;
+  text-align: center;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  font-size:15px;
+}
+
+
+.menu { 
+  position: sticky;
+  display:flex;
+  top: 0;
+  background-color:rgba(0, 51, 0,0.8);
+  padding: 5px 200px 5px 200px;
+  color:white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.menu a:hover{
+ color:#b3a89b;
+	
+}
+
+/* new CLASS BUAT BODY SAMA SECTION */
+
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  font-weight:bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-log {
+  right: auto;
+  float: right;
+}
+
+#footer {
+	position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: grey;
+}
+
+.body_sec {
+  margin-left:20px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+/* --------- BAGIAN SIDEBAR COLLAPSIBLE BUAT BIODATA FOTO SAMA MENU --------- */
+
+/* BAGIAN SUB MENU FOTO PROFIL */
+.card {
+  max-width: px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+/* BAGIAN SUB MENU FOTO PROFIL */
+
+
+/* BAGIAN SUB MENU NAVBAR NAVIGASI */
+.sidebar {
+  height:fit-content;
+  width:0;
+  position:absolute;
+  margin:0px;
+  z-index: 1;
+  top: auto;
+  left:0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  position:relative;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.sidebar .closebtn {
+  padding-top:20px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.openbtn {
+  position:absolute; 
+  top:0;
+  left:0;
+  display:inline;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:rgba(0, 51, 0, 0.1);
+  color: white;
+  padding: 15px 20px 17px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#915B1F;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+/* BAGIAN SUB MENU NAVBAR NAVIGASI */
+
+
+
+
+/* BAGIAN TABEL JADWAL LANDING PAGE UTAMA */
+
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  background-color:#915B1F;
+  color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover { 
+opacity: 1 
+}
+
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}

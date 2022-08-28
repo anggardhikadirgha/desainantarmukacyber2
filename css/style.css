@@ -1,0 +1,368 @@
+.headernav{
+  list-style-type:none;
+  text-align: left;
+  position: relative;
+  background-color: rgba(0, 51, 0,0.9);
+  height: auto;
+  width: auto;
+  padding: 1px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.paragrafe{
+  padding: 1px;
+  height: auto;
+  margin:auto;
+  font-size: 30px;
+  position:sticky;
+  overflow: hidden;
+}
+
+.header-content {
+  margin-bottom:1px;
+  padding: auto;
+  float:right;
+  font-size: 17px;
+}
+
+.header-button{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+  margin:auto;
+}
+
+.iduser {
+   display:block;
+   color:white;
+   float:left;
+   text-align:center;
+   padding:15px 12px;
+   font-size:14px;
+   font-family:arial, Helvetica, sans-serif;
+}
+
+.header-button:hover {
+	border-radius:10px;
+   background-color:#996633;
+  color:;
+}
+
+.desc {
+  padding: 5px;
+  text-align: center;
+  inline-size: 300px;
+  overflow-wrap: break-word;
+  font-size:15px;
+}
+
+
+.menu { 
+  position: sticky;
+  display:flex;
+  top: 0;
+  background-color:rgba(0, 51, 0,0.8);
+  padding: 5px 200px 5px 200px;
+  color:white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.menu a:hover{
+ color:#b3a89b;
+	
+}
+
+/* new CLASS BUAT BODY SAMA SECTION */
+
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  font-weight:bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-log {
+  right: auto;
+  float: right;
+}
+
+#footer {
+	position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: grey;
+}
+
+.body_sec {
+  margin-left:20px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+/* --------- BAGIAN SIDEBAR COLLAPSIBLE BUAT BIODATA FOTO SAMA MENU --------- */
+
+/* BAGIAN SUB MENU FOTO PROFIL */
+.card {
+  max-width:;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+/* BAGIAN SUB MENU FOTO PROFIL */
+
+
+/* BAGIAN SUB MENU NAVBAR NAVIGASI */
+.sidebar {
+  height:fit-content;
+  width:0;
+  position:absolute;
+  margin:0px;
+  z-index: 1;
+  top: auto;
+  left:0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  position:relative;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.sidebar .closebtn {
+  padding-top:20px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.openbtn {
+  position:absolute; 
+  top:0;
+  left:0;
+  display:inline;
+  font-size: 20px;
+  cursor: pointer;
+  background-color:rgba(0, 51, 0, 0.1);
+  color: white;
+  padding: 15px 20px 17px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#915B1F;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+/* BAGIAN SUB MENU NAVBAR NAVIGASI */
+
+
+
+
+/* BAGIAN TABEL JADWAL LANDING PAGE UTAMA */
+
+table {
+  border-collapse: separate;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  background-color:#915B1F;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover { 
+opacity: 1 
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* Bagian Dropdowns */
+.select-style {
+    padding: 0;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 135px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    position: relative;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 160%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-style:after {
+    top: 50%;
+    left: 90%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+	margin-left:2px;
+	margin-right:0px;
+    z-index: 100;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+/*  BAGIAN CSS INPUT SKRIPSI  */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #005590;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #004a90
+}
+
+.containerinput {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/* -- CARD PROFIL DOSEN BUAT DAFTAR DOSEN -- */ 
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.carddosen {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+
